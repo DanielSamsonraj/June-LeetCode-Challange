@@ -20,7 +20,7 @@ public:
                     if(i==0) {
                         dp[i][j] = true;
                     }
-                    else if(check(dp[i-1],j)) {
+                    else if(check(dp[i-1], j)) {
                         dp[i][j] = true;
                     }
                 }
